@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "php7ts", "php7ts\php7ts.vcxproj", "{D36D7643-C5C5-46DB-8CB8-206F437060C4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "php", "php\php.vcxproj", "{BB24E534-8840-4322-A7BE-1D52E5408928}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D36D7643-C5C5-46DB-8CB8-206F437060C4} = {D36D7643-C5C5-46DB-8CB8-206F437060C4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D36D7643-C5C5-46DB-8CB8-206F437060C4}.Debug|x64.ActiveCfg = Debug|x64
+		{D36D7643-C5C5-46DB-8CB8-206F437060C4}.Debug|x64.Build.0 = Debug|x64
+		{D36D7643-C5C5-46DB-8CB8-206F437060C4}.Debug|x86.ActiveCfg = Release|Win32
+		{D36D7643-C5C5-46DB-8CB8-206F437060C4}.Debug|x86.Build.0 = Release|Win32
+		{D36D7643-C5C5-46DB-8CB8-206F437060C4}.Release|x64.ActiveCfg = Release|x64
+		{D36D7643-C5C5-46DB-8CB8-206F437060C4}.Release|x64.Build.0 = Release|x64
+		{D36D7643-C5C5-46DB-8CB8-206F437060C4}.Release|x86.ActiveCfg = Release|x64
+		{D36D7643-C5C5-46DB-8CB8-206F437060C4}.Release|x86.Build.0 = Release|x64
+		{BB24E534-8840-4322-A7BE-1D52E5408928}.Debug|x64.ActiveCfg = Debug|x64
+		{BB24E534-8840-4322-A7BE-1D52E5408928}.Debug|x64.Build.0 = Debug|x64
+		{BB24E534-8840-4322-A7BE-1D52E5408928}.Debug|x86.ActiveCfg = Release|Win32
+		{BB24E534-8840-4322-A7BE-1D52E5408928}.Debug|x86.Build.0 = Release|Win32
+		{BB24E534-8840-4322-A7BE-1D52E5408928}.Release|x64.ActiveCfg = Release|x64
+		{BB24E534-8840-4322-A7BE-1D52E5408928}.Release|x64.Build.0 = Release|x64
+		{BB24E534-8840-4322-A7BE-1D52E5408928}.Release|x86.ActiveCfg = Release|x64
+		{BB24E534-8840-4322-A7BE-1D52E5408928}.Release|x86.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B34D5ED-6F86-4C43-85F9-B7444932CD82}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\astro.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\dow.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\interval.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\parse_date.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\parse_iso_intervals.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\parse_tz.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\timelib.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\tm2unixtime.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\unixtime2tm.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\php_date.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_chartables.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_compile.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_config.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_exec.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_fullinfo.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_get.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_globals.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_jit_compile.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_maketables.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_newline.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_ord2utf8.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_refcount.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_study.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_tables.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_ucd.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_valid_utf8.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_version.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_xclass.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\php_pcre.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\reflection\php_reflection.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\php_spl.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_array.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_directory.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_dllist.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_engine.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_exceptions.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_fixedarray.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_functions.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_heap.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_iterators.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_observer.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H;HAVE_TIMELIB_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\array.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\assert.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\base64.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\basic_functions.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\browscap.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crc32.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\credits.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crypt.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crypt_blowfish.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crypt_freesec.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crypt_sha256.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crypt_sha512.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\css.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\cyr_convert.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\datetime.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\dir.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\dl.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\dns.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\dns_win32.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\exec.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\file.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\filestat.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\filters.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\flock_compat.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\formatted_print.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\fsock.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\ftok.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\ftp_fopen_wrapper.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\head.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\html.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\http.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\http_fopen_wrapper.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\image.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\incomplete_class.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\info.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\iptc.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\lcg.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\levenshtein.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\link_win32.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\mail.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\math.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\md5.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\metaphone.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\microtime.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\mt_rand.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\pack.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\pageinfo.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\password.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\php_crypt_r.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\php_fopen_wrapper.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\proc_open.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\quot_print.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\rand.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\random.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\scanf.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\sha1.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\soundex.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\streamsfuncs.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\string.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\strnatcmp.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\syslog.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\type.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\uniqid.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\url.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\url_scanner_ex.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\user_filters.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\uuencode.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\var.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\var_unserializer.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\versioning.c">
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">HAVE_CONFIG_H</UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\fopen_wrappers.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\getopt.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\internal_functions.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\main.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\mergesort.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\network.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\output.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_content_types.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_ini.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_open_temporary_file.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_scandir.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_sprintf.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_ticks.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_variables.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\reentrancy.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\rfc1867.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\SAPI.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\snprintf.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\spprintf.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\cast.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\filter.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\glob_wrapper.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\memory.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\mmap.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\plain_wrapper.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\streams.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\transports.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\userspace.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\xp_socket.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\strlcat.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\strlcpy.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\TSRM\TSRM.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\TSRM\tsrm_strtok_r.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\TSRM\tsrm_win32.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\codepage.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\console.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\dllmain.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\fnmatch.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\getrusage.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\glob.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\globals.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\inet.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\ioutil.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\nice.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\readdir.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\registry.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\select.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\sendmail.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\sockets.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\time.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\winutil.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\wsyslog.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_alloc.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_API.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ast.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_builtin_functions.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_closures.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_compile.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_constants.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_default_classes.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_exceptions.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_execute.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_execute_API.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_extensions.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_float.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_gc.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_generators.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_hash.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_highlight.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_inheritance.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ini.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ini_parser.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ini_scanner.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_interfaces.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_iterators.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_language_parser.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_language_scanner.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_list.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_llist.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_multibyte.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_objects.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_objects_API.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_object_handlers.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_opcode.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_operators.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ptr_stack.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_smart_str.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_sort.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_sprintf.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_stack.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_stream.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_string.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_strtod.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ts_hash.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_variables.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_virtual_cwd.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_vm_opcodes.c" />
+    <ClCompile Include="ftokw32.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\astro.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\timelib.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\php_date.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_internal.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\php_pcre.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\reflection\php_reflection.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\php_spl.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_array.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_directory.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_dllist.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_engine.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_exceptions.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_fixedarray.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_functions.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_heap.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_iterators.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_observer.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\base64.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\basic_functions.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crc32.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\credits.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crypt_blowfish.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crypt_freesec.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\css.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\cyr_convert.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\datetime.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\dl.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\exec.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\file.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\flock_compat.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\fsock.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\head.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\html.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\info.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\md5.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\microtime.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\pack.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\pageinfo.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\php_crypt_r.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\php_fopen_wrappers.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\proc_open.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\quot_print.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\scanf.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\sha1.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\streamsfuncs.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\uniqid.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\url_scanner_ex.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\fopen_wrappers.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_compat.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_scandir.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_ticks.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_variables.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\rfc1867.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\SAPI.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\snprintf.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\spprintf.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\php_streams_int.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\php_stream_context.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\php_stream_filter_api.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\php_stream_glob_wrapper.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\php_stream_mmap.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\php_stream_plain_wrapper.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\php_stream_transport.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\php_stream_userspace.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\TSRM\TSRM.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\TSRM\tsrm_strtok_r.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\TSRM\tsrm_win32.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\codepage.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\console.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\fnmatch.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\getrusage.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\glob.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\inet.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\ioutil.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\readdir.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\select.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\sendmail.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\sockets.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\time.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\winutil.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\wsyslog.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_alloc.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_alloc_sizes.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_API.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_arena.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ast.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_bitset.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_build.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_builtin_functions.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_closures.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_compile.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_config.nw.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_config.w32.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_constants.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_dtrace.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_errors.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_exceptions.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_execute.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_extensions.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_float.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_gc.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_generators.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_globals.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_globals_macros.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_hash.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_highlight.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_inheritance.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ini.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ini_parser.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ini_scanner.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ini_scanner_defs.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_interfaces.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_istdiostream.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_iterators.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_language_parser.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_language_scanner.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_language_scanner_defs.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_list.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_llist.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_long.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_modules.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_multibyte.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_multiply.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_objects.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_objects_API.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_object_handlers.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_operators.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_portability.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ptr_stack.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_range_check.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_signal.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_smart_str.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_smart_string.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_smart_string_public.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_smart_str_public.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_sort.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_stack.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_stream.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_string.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_strtod.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_strtod_int.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ts_hash.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_types.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_type_info.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_variables.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_virtual_cwd.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_vm.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_vm_def.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_vm_execute.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_vm_opcodes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="php7ts.dll.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="template.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="php7ts.dll.manifest" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{D36D7643-C5C5-46DB-8CB8-206F437060C4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>php7ts</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>php7ts</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>
+    </WholeProgramOptimization>
+    <CharacterSet>
+    </CharacterSet>
+    <CLRSupport />
+    <WindowsAppContainer />
+    <SpectreMitigation />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>
+    </WholeProgramOptimization>
+    <CharacterSet>
+    </CharacterSet>
+    <CLRSupport />
+    <WindowsAppContainer />
+    <SpectreMitigation />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>
+    </LinkIncremental>
+    <IntDir>$(ProjectDir)$(Configuration)\$(Platform)\</IntDir>
+    <IgnoreImportLibrary />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>
+    </LinkIncremental>
+    <IgnoreImportLibrary />
+    <GenerateManifest />
+    <EnableManagedIncrementalBuild />
+    <ReferencePath />
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>.\x86\Release</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>
+    </LinkIncremental>
+    <IgnoreImportLibrary />
+    <GenerateManifest />
+    <EnableManagedIncrementalBuild />
+    <ReferencePath />
+    <IntDir>$(ProjectDir)$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;PHP7TS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalOptions>/D _USRDLL /D PHP7DLLTS_EXPORTS /D PHP_EXPORTS /D LIBZEND_EXPORTS /D TSRM_EXPORTS /D SAPI_EXPORTS /D WINVER=0x0601 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;ZEND_DEBUG=1;_USRDLL;PHP7DLLTS_EXPORTS;PHP_EXPORTS;LIBZEND_EXPORTS;TSRM_EXPORTS;SAPI_EXPORTS;WINVER=0x0601;ZEND_ENABLE_STATIC_TSRMLS_CACHE=1;HAVE_TIMELIB_CONFIG_H=1;HAVE_CONFIG_H;_WINDOWS;WINDOWS=1;ZEND_WIN32=1;PHP_WIN32=1;WIN32;_MBCS;_USE_MATH_DEFINES;ZEND_WIN32_FORCE_INLINE;ZTS=1;FD_SETSIZE=256;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>..\..\phpdev\vc15\x64\php-7.2.34-src;..\..\phpdev\vc15\x64\php-7.2.34-src\Zend;..\..\phpdev\vc15\x64\php-7.2.34-src\TSRM;..\..\phpdev\vc15\x64\php-7.2.34-src\main;..\..\phpdev\vc15\x64\php-7.2.34-src\ext</AdditionalIncludeDirectories>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ShowProgress />
+      <RegisterOutput />
+      <PerUserRedirection />
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies />
+    </ProjectReference>
+    <ProjectReference>
+      <UseLibraryDependencyInputs />
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>
+      </IntrinsicFunctions>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>_USRDLL;PHP7DLLTS_EXPORTS;PHP_EXPORTS;LIBZEND_EXPORTS;TSRM_EXPORTS;SAPI_EXPORTS;WINVER=0x0601;ZEND_ENABLE_STATIC_TSRMLS_CACHE=1;HAVE_TIMELIB_CONFIG_H=1;HAVE_CONFIG_H;_WINDOWS;WINDOWS=1;ZEND_WIN32=1;PHP_WIN32=1;WIN32;_MBCS;_USE_MATH_DEFINES;NDebug;NDEBUG;ZEND_WIN32_FORCE_INLINE;ZEND_DEBUG=0;ZTS=1;FD_SETSIZE=256</PreprocessorDefinitions>
+      <ConformanceMode>
+      </ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <DebugInformationFormat />
+      <SupportJustMyCode />
+      <TreatWarningAsError />
+      <DiagnosticsFormat />
+      <InlineFunctionExpansion />
+      <FavorSizeOrSpeed />
+      <OmitFramePointers />
+      <EnableFiberSafeOptimizations />
+      <WholeProgramOptimization />
+      <UndefineAllPreprocessorDefinitions />
+      <IgnoreStandardIncludePath />
+      <PreprocessToFile />
+      <PreprocessSuppressLineNumbers />
+      <PreprocessKeepComments />
+      <MinimalRebuild />
+      <ExceptionHandling />
+      <SmallerTypeCheck />
+      <BasicRuntimeChecks />
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment />
+      <BufferSecurityCheck />
+      <EnableEnhancedInstructionSet />
+      <FloatingPointModel />
+      <DisableLanguageExtensions />
+      <TreatWChar_tAsBuiltInType />
+      <ForceConformanceInForLoopScope />
+      <PrecompiledHeaderOutputFile />
+      <ExpandAttributedSource />
+      <AssemblerOutput />
+      <AssemblerListingLocation />
+      <ObjectFileName />
+      <ProgramDataBaseFileName />
+      <GenerateXMLDocumentationFiles />
+      <XMLDocumentationFileName />
+      <BrowseInformation />
+      <BrowseInformationFile />
+      <CallingConvention />
+      <CompileAs />
+      <ShowIncludes />
+      <UseFullPaths />
+      <OmitDefaultLibName />
+      <ErrorReporting />
+      <DisableSpecificWarnings>4244;4996</DisableSpecificWarnings>
+      <AdditionalOptions>/Zc:__cplusplus /FD /LD /FR /Fp %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>true</StringPooling>
+      <AdditionalIncludeDirectories>D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\Zend;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\main;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\TSRM;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\ext;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib;D:\php-sdk\phpdev\vc15\x64\deps\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <GenerateDebugInformation>
+      </GenerateDebugInformation>
+      <EnableUAC>
+      </EnableUAC>
+      <ShowProgress />
+      <RegisterOutput />
+      <PerUserRedirection />
+      <AdditionalDependencies>kernel32.lib;ole32.lib;user32.lib;advapi32.lib;shell32.lib;ws2_32.lib;Dnsapi.lib;psapi.lib;bcrypt.lib</AdditionalDependencies>
+      <ManifestFile />
+      <AllowIsolation />
+      <UACExecutionLevel />
+      <UACUIAccess />
+      <ProgramDatabaseFile />
+      <GenerateMapFile />
+      <MapExports />
+      <SwapRunFromCD />
+      <SwapRunFromNET />
+      <Driver />
+      <ProfileGuidedDatabase />
+      <LinkTimeCodeGeneration />
+      <IgnoreEmbeddedIDL />
+      <TypeLibraryResourceID />
+      <NoEntryPoint />
+      <SetChecksum />
+      <RandomizedBaseAddress />
+      <DataExecutionPrevention />
+      <TurnOffAssemblyGeneration />
+      <ImportLibrary />
+      <TargetMachine />
+      <Profile />
+      <CLRImageType />
+      <LinkErrorReporting />
+      <ImageHasSafeExceptionHandlers />
+      <AdditionalOptions>/nodefaultlib:libcmt /def:php7ts.dll.def %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>D:\php-sdk\phpdev\vc15\x64\deps\lib</AdditionalLibraryDirectories>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies />
+    </ProjectReference>
+    <ProjectReference>
+      <UseLibraryDependencyInputs />
+    </ProjectReference>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\Zend;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\TSRM;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\main;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\ext;D:\php-sdk\phpsln\php7ts</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <ResourceCompile>
+      <ResourceOutputFileName>php7ts.dll.res</ResourceOutputFileName>
+      <PreprocessorDefinitions>FILE_DESCRIPTION=\"PHP Script Interpreter\";FILE_NAME=\"php7ts.dll\";PRODUCT_NAME=\"PHP Script Interpreter\";MC_INCLUDE=\"D:\php-sdk\phpsln\php7ts\wsyslog.rc\"</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>
+      </IntrinsicFunctions>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>_USRDLL;PHP7DLLTS_EXPORTS;PHP_EXPORTS;LIBZEND_EXPORTS;TSRM_EXPORTS;SAPI_EXPORTS;WINVER=0x0601;ZEND_ENABLE_STATIC_TSRMLS_CACHE=1;HAVE_TIMELIB_CONFIG_H=1;HAVE_CONFIG_H;_WINDOWS;WINDOWS=1;ZEND_WIN32=1;PHP_WIN32=1;WIN32;_MBCS;_USE_MATH_DEFINES;NDebug;NDEBUG;ZEND_WIN32_FORCE_INLINE;ZEND_DEBUG=0;ZTS=1;FD_SETSIZE=256</PreprocessorDefinitions>
+      <ConformanceMode>
+      </ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <DebugInformationFormat />
+      <SupportJustMyCode />
+      <TreatWarningAsError />
+      <DiagnosticsFormat />
+      <InlineFunctionExpansion />
+      <FavorSizeOrSpeed />
+      <EnableFiberSafeOptimizations />
+      <WholeProgramOptimization />
+      <UndefineAllPreprocessorDefinitions />
+      <IgnoreStandardIncludePath />
+      <PreprocessToFile />
+      <PreprocessSuppressLineNumbers />
+      <PreprocessKeepComments />
+      <MinimalRebuild />
+      <ExceptionHandling />
+      <SmallerTypeCheck />
+      <BasicRuntimeChecks />
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment />
+      <BufferSecurityCheck />
+      <EnableEnhancedInstructionSet />
+      <FloatingPointModel />
+      <DisableLanguageExtensions />
+      <TreatWChar_tAsBuiltInType />
+      <ForceConformanceInForLoopScope />
+      <PrecompiledHeaderOutputFile />
+      <ExpandAttributedSource />
+      <AssemblerOutput />
+      <AssemblerListingLocation />
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <GenerateXMLDocumentationFiles />
+      <XMLDocumentationFileName />
+      <BrowseInformation />
+      <BrowseInformationFile />
+      <CallingConvention />
+      <CompileAs />
+      <ShowIncludes />
+      <UseFullPaths />
+      <OmitDefaultLibName />
+      <ErrorReporting />
+      <DisableSpecificWarnings>4244;4996</DisableSpecificWarnings>
+      <AdditionalOptions>/Zc:__cplusplus /FD /LD %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <StringPooling>true</StringPooling>
+      <AdditionalIncludeDirectories>..\..\phpdev\vc15\x64\php-7.2.34-src;..\..\phpdev\vc15\x64\php-7.2.34-src\Zend;..\..\phpdev\vc15\x64\php-7.2.34-src\TSRM;..\..\phpdev\vc15\x64\php-7.2.34-src\main;..\..\phpdev\vc15\x64\php-7.2.34-src\ext</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <GenerateDebugInformation>
+      </GenerateDebugInformation>
+      <EnableUAC>
+      </EnableUAC>
+      <ShowProgress />
+      <RegisterOutput />
+      <PerUserRedirection />
+      <AdditionalDependencies>kernel32.lib;ole32.lib;user32.lib;advapi32.lib;shell32.lib;ws2_32.lib;Dnsapi.lib;psapi.lib;bcrypt.lib</AdditionalDependencies>
+      <ManifestFile />
+      <AllowIsolation />
+      <UACExecutionLevel />
+      <UACUIAccess />
+      <ProgramDatabaseFile />
+      <GenerateMapFile />
+      <MapExports />
+      <SwapRunFromCD />
+      <SwapRunFromNET />
+      <Driver />
+      <ProfileGuidedDatabase />
+      <LinkTimeCodeGeneration />
+      <IgnoreEmbeddedIDL />
+      <TypeLibraryResourceID />
+      <NoEntryPoint />
+      <SetChecksum />
+      <RandomizedBaseAddress />
+      <DataExecutionPrevention />
+      <TurnOffAssemblyGeneration />
+      <ImportLibrary />
+      <TargetMachine />
+      <Profile />
+      <CLRImageType />
+      <LinkErrorReporting />
+      <AdditionalOptions>/nodefaultlib:libcmt /def:php7ts.dll.def %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalLibraryDirectories>
+      </AdditionalLibraryDirectories>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies />
+    </ProjectReference>
+    <ProjectReference>
+      <UseLibraryDependencyInputs />
+    </ProjectReference>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\Zend;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\TSRM;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\main;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\ext;D:\php-sdk\phpsln\php7ts</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <ResourceCompile>
+      <ResourceOutputFileName>php7ts.dll.res</ResourceOutputFileName>
+      <PreprocessorDefinitions>FILE_DESCRIPTION=\"PHP Script Interpreter\";FILE_NAME=\"php7ts.dll\";PRODUCT_NAME=\"PHP Script Interpreter\";MC_INCLUDE=\"D:\php-sdk\phpsln\php7ts\wsyslog.rc\"</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

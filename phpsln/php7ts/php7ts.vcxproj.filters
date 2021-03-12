@@ -1,0 +1,1153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Zend">
+      <UniqueIdentifier>{a159f3be-a869-4639-ac9c-049734efdd29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\main">
+      <UniqueIdentifier>{70e12927-3093-48d6-9f7a-85c4d1646b4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\main\streams">
+      <UniqueIdentifier>{6b9a3e8a-0798-4516-99b1-9fc7fd1d2a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\win32">
+      <UniqueIdentifier>{75954718-f21d-458c-8fdc-2605888762d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\TSRM">
+      <UniqueIdentifier>{c692e9f8-bbd1-4559-bc21-a80728ebf279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\date">
+      <UniqueIdentifier>{e959143d-c47d-4be4-96c5-4c049af53df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\pcre">
+      <UniqueIdentifier>{758f2f07-792d-4305-88b4-353e38b10856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\reflection">
+      <UniqueIdentifier>{9535d4df-525c-46bc-9f2e-d05c1d58de33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\spl">
+      <UniqueIdentifier>{4cf0f38e-cf5e-4b9f-9666-1fb0e014e0b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\standard">
+      <UniqueIdentifier>{00f9fbfa-3577-42ee-b38d-ed6a67a968b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_alloc.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_API.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ast.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_builtin_functions.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_closures.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_compile.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_constants.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_default_classes.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_exceptions.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_execute.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_execute_API.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_extensions.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_float.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_gc.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_generators.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_hash.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_highlight.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_inheritance.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ini.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ini_parser.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ini_scanner.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_interfaces.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_iterators.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_language_parser.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_language_scanner.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_list.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_llist.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_multibyte.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_object_handlers.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_objects.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_objects_API.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_opcode.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_operators.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ptr_stack.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_smart_str.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_sort.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_sprintf.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_stack.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_stream.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_string.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_strtod.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ts_hash.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_variables.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_virtual_cwd.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_vm_opcodes.c">
+      <Filter>源文件\Zend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\SAPI.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\fopen_wrappers.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\getopt.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\internal_functions.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\network.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\output.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_content_types.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_ini.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_open_temporary_file.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_scandir.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_sprintf.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_ticks.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_variables.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\reentrancy.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\rfc1867.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\snprintf.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\spprintf.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\strlcat.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\strlcpy.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\cast.c">
+      <Filter>源文件\main\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\filter.c">
+      <Filter>源文件\main\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\glob_wrapper.c">
+      <Filter>源文件\main\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\memory.c">
+      <Filter>源文件\main\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\mmap.c">
+      <Filter>源文件\main\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\plain_wrapper.c">
+      <Filter>源文件\main\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\streams.c">
+      <Filter>源文件\main\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\transports.c">
+      <Filter>源文件\main\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\userspace.c">
+      <Filter>源文件\main\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\xp_socket.c">
+      <Filter>源文件\main\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\codepage.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\console.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\dllmain.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\fnmatch.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\getrusage.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\glob.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\globals.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\inet.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\ioutil.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\nice.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\readdir.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\registry.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\select.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\sendmail.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\sockets.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\time.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\winutil.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\wsyslog.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\TSRM\TSRM.c">
+      <Filter>源文件\TSRM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\TSRM\tsrm_strtok_r.c">
+      <Filter>源文件\TSRM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\TSRM\tsrm_win32.c">
+      <Filter>源文件\TSRM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\php_date.c">
+      <Filter>源文件\date</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\astro.c">
+      <Filter>源文件\date</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\dow.c">
+      <Filter>源文件\date</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\interval.c">
+      <Filter>源文件\date</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\parse_date.c">
+      <Filter>源文件\date</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\parse_iso_intervals.c">
+      <Filter>源文件\date</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\parse_tz.c">
+      <Filter>源文件\date</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\timelib.c">
+      <Filter>源文件\date</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\tm2unixtime.c">
+      <Filter>源文件\date</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\unixtime2tm.c">
+      <Filter>源文件\date</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_chartables.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_compile.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_config.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_exec.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_fullinfo.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_get.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_globals.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_jit_compile.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_maketables.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_newline.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_ord2utf8.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_refcount.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_study.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_tables.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_ucd.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_valid_utf8.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_version.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_xclass.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\php_pcre.c">
+      <Filter>源文件\pcre</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\reflection\php_reflection.c">
+      <Filter>源文件\reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_array.c">
+      <Filter>源文件\spl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_directory.c">
+      <Filter>源文件\spl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_dllist.c">
+      <Filter>源文件\spl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_engine.c">
+      <Filter>源文件\spl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_exceptions.c">
+      <Filter>源文件\spl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_fixedarray.c">
+      <Filter>源文件\spl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_functions.c">
+      <Filter>源文件\spl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_heap.c">
+      <Filter>源文件\spl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_iterators.c">
+      <Filter>源文件\spl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_observer.c">
+      <Filter>源文件\spl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\php_spl.c">
+      <Filter>源文件\spl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\array.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\assert.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\base64.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\basic_functions.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\browscap.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crc32.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\credits.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crypt.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crypt_blowfish.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crypt_freesec.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crypt_sha256.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crypt_sha512.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\css.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\cyr_convert.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\datetime.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\dir.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\dl.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\dns.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\dns_win32.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\exec.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\file.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\filestat.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\filters.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\flock_compat.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\formatted_print.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\fsock.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\ftp_fopen_wrapper.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\head.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\html.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\http.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\http_fopen_wrapper.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\image.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\incomplete_class.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\info.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\iptc.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\lcg.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\levenshtein.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\link_win32.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\mail.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\math.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\md5.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\metaphone.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\microtime.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\mt_rand.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\pack.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\pageinfo.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\password.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\php_crypt_r.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\php_fopen_wrapper.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\proc_open.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\quot_print.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\rand.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\random.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\scanf.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\sha1.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\soundex.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\streamsfuncs.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\string.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\strnatcmp.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\syslog.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\type.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\uniqid.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\url.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\user_filters.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\url_scanner_ex.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\uuencode.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\var.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\var_unserializer.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\versioning.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\main.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\mergesort.c">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\ftok.c">
+      <Filter>源文件\standard</Filter>
+    </ClCompile>
+    <ClCompile Include="ftokw32.c">
+      <Filter>源文件\win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_alloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_alloc_sizes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_API.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_arena.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ast.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_bitset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_build.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_builtin_functions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_closures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_compile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_config.nw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_config.w32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_constants.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_dtrace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_errors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_exceptions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_execute.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_extensions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_float.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_gc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_generators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_globals.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_globals_macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_highlight.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_inheritance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ini.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ini_parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ini_scanner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ini_scanner_defs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_interfaces.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_istdiostream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_iterators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_language_parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_language_scanner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_language_scanner_defs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_llist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_long.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_modules.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_multibyte.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_multiply.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_object_handlers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_objects.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_objects_API.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_operators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_portability.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ptr_stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_range_check.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_signal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_smart_str.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_smart_str_public.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_smart_string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_smart_string_public.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_stream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_strtod.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_strtod_int.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_ts_hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_type_info.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_variables.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_virtual_cwd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_vm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_vm_def.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_vm_execute.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\Zend\zend_vm_opcodes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\fopen_wrappers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\SAPI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_compat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_scandir.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_ticks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\php_variables.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\rfc1867.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\snprintf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\spprintf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\php_stream_context.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\php_stream_filter_api.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\php_stream_glob_wrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\php_stream_mmap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\php_stream_plain_wrapper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\php_stream_transport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\php_stream_userspace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\main\streams\php_streams_int.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\codepage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\console.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\fnmatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\getrusage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\glob.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\inet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\ioutil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\readdir.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\select.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\sendmail.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\sockets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\winutil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\wsyslog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\TSRM\TSRM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\TSRM\tsrm_strtok_r.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\TSRM\tsrm_win32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\php_date.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\astro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\date\lib\timelib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\php_pcre.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\pcre\pcrelib\pcre_internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\reflection\php_reflection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\php_spl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_array.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_directory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_dllist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_engine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_exceptions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_fixedarray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_functions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_iterators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\spl\spl_observer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\base64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\basic_functions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crc32.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\credits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crypt_blowfish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\crypt_freesec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\css.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\datetime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\dl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\exec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\flock_compat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\fsock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\head.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\html.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\info.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\microtime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\pack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\pageinfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\php_crypt_r.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\php_fopen_wrappers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\proc_open.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\quot_print.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\scanf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\sha1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\streamsfuncs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\uniqid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\url_scanner_ex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\ext\standard\cyr_convert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="php7ts.dll.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="template.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="php7ts.dll.manifest" />
+  </ItemGroup>
+</Project>
