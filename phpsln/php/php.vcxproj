@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\sapi\cli\php_cli.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\sapi\cli\php_cli_process_title.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\sapi\cli\php_cli_server.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\sapi\cli\php_http_parser.c" />
+    <ClCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\sapi\cli\ps_title.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\sapi\cli\php_cli_process_title.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\sapi\cli\php_cli_server.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\sapi\cli\php_http_parser.h" />
+    <ClInclude Include="..\..\phpdev\vc15\x64\php-7.2.34-src\sapi\cli\ps_title.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\build\template.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="..\..\phpdev\vc15\x64\php-7.2.34-src\win32\build\default.manifest">
+      <SubType>Designer</SubType>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\x64\Release\php7ts.lib" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{BB24E534-8840-4322-A7BE-1D52E5408928}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>php</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectName>php</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>
+    </WholeProgramOptimization>
+    <CharacterSet>
+    </CharacterSet>
+    <SpectreMitigation />
+    <CLRSupport />
+    <WindowsAppContainer />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>
+    </WholeProgramOptimization>
+    <CharacterSet>
+    </CharacterSet>
+    <SpectreMitigation />
+    <CLRSupport />
+    <WindowsAppContainer />
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\Zend;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\TSRM;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\main;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\ext;D:\php-sdk\phpdev\vc15\x64\deps\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\php-sdk\phpdev\vc15\x64\deps\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\Zend;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\TSRM;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\main;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\ext;D:\php-sdk\phpdev\vc15\x64\deps\include;$(IncludePath)</IncludePath>
+    <ExecutablePath>$(VC_ExecutablePath_x64);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH)</ExecutablePath>
+    <ReferencePath>$(VC_ReferencesPath_x64);</ReferencePath>
+    <LibraryPath>D:\php-sdk\phpdev\vc15\x64\deps\lib;$(LibraryPath)</LibraryPath>
+    <IntDir>$(ProjectDir)$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>D:\php-sdk\phpdev\vc15\x64\deps\lib;$(LibraryPath)</LibraryPath>
+    <IgnoreImportLibrary />
+    <GenerateManifest />
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(IncludePath)</IncludePath>
+    <ExecutablePath>$(VC_ExecutablePath_x64);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH)</ExecutablePath>
+    <ReferencePath>$(VC_ReferencesPath_x64);</ReferencePath>
+    <LibraryPath>D:\php-sdk\phpdev\vc15\x64\deps\lib;$(LibraryPath)</LibraryPath>
+    <IgnoreImportLibrary />
+    <GenerateManifest />
+    <IntDir>$(ProjectDir)$(Configuration)\$(Platform)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;WINDOWS=1;ZEND_WIN32=1;PHP_WIN32=1;WIN32;_MBCS;_USE_MATH_DEFINES;NDebug;NDEBUG;ZEND_WIN32_FORCE_INLINE;ZEND_DEBUG=0;ZTS=1;FD_SETSIZE=256;ZEND_ENABLE_STATIC_TSRMLS_CACHE=1;HAVE_EDITLINE_READLINE_H=1;HAVE_LIBEDIT</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <SupportJustMyCode>false</SupportJustMyCode>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <FavorSizeOrSpeed />
+      <OmitFramePointers />
+      <WholeProgramOptimization />
+      <MinimalRebuild />
+      <ExceptionHandling>false</ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <FloatingPointModel />
+      <TreatWChar_tAsBuiltInType />
+      <ForceConformanceInForLoopScope />
+      <CallingConvention />
+      <UseFullPaths />
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <CompileAsManaged>false</CompileAsManaged>
+      <StringPooling>true</StringPooling>
+      <AdditionalOptions>/Zc:__cplusplus /FD /LD %(AdditionalOptions)</AdditionalOptions>
+      <PrecompiledHeaderFile />
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalOptions>/nologo %(AdditionalOptions)</AdditionalOptions>
+      <TargetMachine>MachineX64</TargetMachine>
+      <AdditionalDependencies>ws2_32.lib;shell32.lib;edit_a.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <OptimizeReferences>false</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
+      <ResourceOutputFileName>php.exe.res</ResourceOutputFileName>
+      <NullTerminateStrings>true</NullTerminateStrings>
+      <PreprocessorDefinitions>WANT_LOGO;FILE_DESCRIPTION=\"CLI\";FILE_NAME=\"php.exe\";URL=\"http://www.php.net\";INTERNAL_NAME=\"CLI SAPI\";THANKS_GUYS=\"Thanks to Edin Kadribasic, Marcus Boerger, Johannes Schlueter, Moriyoshi Koizumi, Xinchen Hui\"</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;WINDOWS=1;ZEND_WIN32=1;PHP_WIN32=1;WIN32;_MBCS;_USE_MATH_DEFINES;NDebug;NDEBUG;ZEND_WIN32_FORCE_INLINE;ZEND_DEBUG=0;ZTS=1;FD_SETSIZE=256;ZEND_ENABLE_STATIC_TSRMLS_CACHE=1;HAVE_EDITLINE_READLINE_H=1;HAVE_LIBEDIT</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <SupportJustMyCode>false</SupportJustMyCode>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DebugInformationFormat />
+      <FavorSizeOrSpeed />
+      <WholeProgramOptimization />
+      <MinimalRebuild />
+      <ExceptionHandling>false</ExceptionHandling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck />
+      <FloatingPointModel />
+      <TreatWChar_tAsBuiltInType />
+      <ForceConformanceInForLoopScope />
+      <CallingConvention />
+      <UseFullPaths />
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <CompileAsManaged>false</CompileAsManaged>
+      <StringPooling>true</StringPooling>
+      <AdditionalOptions>/Zc:__cplusplus /FD /LD %(AdditionalOptions)</AdditionalOptions>
+      <PrecompiledHeaderFile />
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;shell32.lib;edit_a.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OptimizeReferences>false</OptimizeReferences>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WANT_LOGO;FILE_DESCRIPTION=\"CLI\";FILE_NAME=\"php.exe\";URL=\"http://www.php.net\";INTERNAL_NAME=\"CLI SAPI\";THANKS_GUYS=\"Thanks to Edin Kadribasic, Marcus Boerger, Johannes Schlueter, Moriyoshi Koizumi, Xinchen Hui\"</PreprocessorDefinitions>
+      <ResourceOutputFileName>php.exe.res</ResourceOutputFileName>
+      <NullTerminateStrings>true</NullTerminateStrings>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;WINDOWS=1;ZEND_WIN32=1;PHP_WIN32=1;WIN32;_MBCS;_USE_MATH_DEFINES;NDebug;NDEBUG;ZEND_WIN32_FORCE_INLINE;ZEND_DEBUG=0;ZTS=1;FD_SETSIZE=256;ZEND_ENABLE_STATIC_TSRMLS_CACHE=1;HAVE_EDITLINE_READLINE_H=1;HAVE_LIBEDIT</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FavorSizeOrSpeed />
+      <OmitFramePointers />
+      <WholeProgramOptimization />
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <DebugInformationFormat />
+      <FloatingPointModel />
+      <TreatWChar_tAsBuiltInType />
+      <ForceConformanceInForLoopScope />
+      <CallingConvention />
+      <UseFullPaths />
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <CompileAsManaged>
+      </CompileAsManaged>
+      <StringPooling>true</StringPooling>
+      <AdditionalOptions>/Zc:__cplusplus /FD /LD  /Fp /FR /Fd %(AdditionalOptions)</AdditionalOptions>
+      <PrecompiledHeaderFile />
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <AdditionalIncludeDirectories>D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\Zend;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\TSRM;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\main;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\ext;D:\php-sdk\phpdev\vc15\x64\deps\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um</AdditionalIncludeDirectories>
+      <SmallerTypeCheck />
+      <BasicRuntimeChecks />
+      <StructMemberAlignment />
+      <EnableEnhancedInstructionSet />
+      <SupportJustMyCode />
+      <TreatWarningAsError />
+      <DiagnosticsFormat />
+      <InlineFunctionExpansion />
+      <IntrinsicFunctions />
+      <EnableFiberSafeOptimizations />
+      <DisableLanguageExtensions />
+      <ConformanceMode />
+      <CompileAs />
+      <ShowIncludes />
+      <OmitDefaultLibName />
+      <ErrorReporting />
+      <PreprocessToFile />
+      <PreprocessSuppressLineNumbers />
+      <PreprocessKeepComments />
+      <ExpandAttributedSource />
+      <GenerateXMLDocumentationFiles />
+      <BrowseInformation />
+      <IgnoreStandardIncludePath />
+      <PrecompiledHeaderOutputFile />
+      <AssemblerOutput />
+      <AssemblerListingLocation />
+      <XMLDocumentationFileName />
+      <UndefineAllPreprocessorDefinitions />
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>
+      </GenerateDebugInformation>
+      <AdditionalOptions>
+      </AdditionalOptions>
+      <TargetMachine>
+      </TargetMachine>
+      <AdditionalDependencies>ws2_32.lib;shell32.lib;edit_a.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <ShowProgress />
+      <AdditionalLibraryDirectories>D:\php-sdk\phpdev\vc15\x64\deps\lib</AdditionalLibraryDirectories>
+      <AllowIsolation />
+      <EnableUAC />
+      <UACExecutionLevel />
+      <UACUIAccess />
+      <GenerateMapFile />
+      <MapExports />
+      <StackReserveSize>67108864</StackReserveSize>
+      <SwapRunFromCD />
+      <SwapRunFromNET />
+      <Driver />
+      <ProfileGuidedDatabase />
+      <IgnoreEmbeddedIDL />
+      <TypeLibraryResourceID />
+      <NoEntryPoint />
+      <SetChecksum />
+      <RandomizedBaseAddress />
+      <DataExecutionPrevention />
+      <TurnOffAssemblyGeneration />
+      <Profile />
+      <CLRImageType />
+      <LinkErrorReporting />
+      <ImageHasSafeExceptionHandlers />
+      <RegisterOutput />
+      <PerUserRedirection />
+      <StackCommitSize>
+      </StackCommitSize>
+      <ManifestFile />
+      <ProgramDatabaseFile />
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\Zend;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\TSRM;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\main;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\ext;D:\php-sdk\phpdev\vc15\x64\deps\include;</AdditionalIncludeDirectories>
+      <ResourceOutputFileName>php.exe.res</ResourceOutputFileName>
+      <NullTerminateStrings>true</NullTerminateStrings>
+      <PreprocessorDefinitions>WANT_LOGO;FILE_DESCRIPTION=\"CLI\";FILE_NAME=\"php.exe\";URL=\"http://www.php.net\";INTERNAL_NAME=\"CLI SAPI\";THANKS_GUYS=\"Thanks to Edin Kadribasic, Marcus Boerger, Johannes Schlueter, Moriyoshi Koizumi, Xinchen Hui\"</PreprocessorDefinitions>
+    </ResourceCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies />
+    </ProjectReference>
+    <ProjectReference>
+      <UseLibraryDependencyInputs />
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;WINDOWS=1;ZEND_WIN32=1;PHP_WIN32=1;WIN32;_MBCS;_USE_MATH_DEFINES;NDebug;NDEBUG;ZEND_WIN32_FORCE_INLINE;ZEND_DEBUG=0;ZTS=1;FD_SETSIZE=256;ZEND_ENABLE_STATIC_TSRMLS_CACHE=1;HAVE_EDITLINE_READLINE_H=1;HAVE_LIBEDIT</PreprocessorDefinitions>
+      <ConformanceMode>
+      </ConformanceMode>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DebugInformationFormat />
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <CompileAsManaged>
+      </CompileAsManaged>
+      <StringPooling>true</StringPooling>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <AdditionalOptions>/Zc:__cplusplus /FD /LD  /Fp /FR /Fd %(AdditionalOptions)</AdditionalOptions>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <PrecompiledHeaderFile />
+      <AdditionalIncludeDirectories>..\..\phpdev\vc15\x64\php-7.2.34-src;..\..\phpdev\vc15\x64\php-7.2.34-src\Zend;..\..\phpdev\vc15\x64\php-7.2.34-src\TSRM;..\..\phpdev\vc15\x64\php-7.2.34-src\main;..\..\phpdev\vc15\x64\php-7.2.34-src\ext;..\..\phpdev\vc15\x64\deps\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um</AdditionalIncludeDirectories>
+      <MinimalRebuild>
+      </MinimalRebuild>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <SmallerTypeCheck />
+      <BasicRuntimeChecks />
+      <StructMemberAlignment />
+      <EnableEnhancedInstructionSet />
+      <FloatingPointModel />
+      <SupportJustMyCode />
+      <TreatWarningAsError />
+      <DiagnosticsFormat />
+      <InlineFunctionExpansion />
+      <IntrinsicFunctions />
+      <FavorSizeOrSpeed />
+      <EnableFiberSafeOptimizations />
+      <WholeProgramOptimization />
+      <DisableLanguageExtensions />
+      <TreatWChar_tAsBuiltInType />
+      <ForceConformanceInForLoopScope />
+      <CallingConvention />
+      <CompileAs />
+      <ShowIncludes />
+      <UseFullPaths />
+      <OmitDefaultLibName />
+      <ErrorReporting />
+      <PreprocessToFile />
+      <PreprocessSuppressLineNumbers />
+      <PreprocessKeepComments />
+      <ExpandAttributedSource />
+      <GenerateXMLDocumentationFiles />
+      <BrowseInformation />
+      <IgnoreStandardIncludePath />
+      <PrecompiledHeaderOutputFile />
+      <AssemblerOutput />
+      <AssemblerListingLocation />
+      <XMLDocumentationFileName />
+      <UndefineAllPreprocessorDefinitions />
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <GenerateDebugInformation>
+      </GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;shell32.lib;edit_a.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <ShowProgress />
+      <AdditionalLibraryDirectories>D:\php-sdk\phpdev\vc15\x64\deps\lib</AdditionalLibraryDirectories>
+      <AllowIsolation />
+      <EnableUAC />
+      <UACExecutionLevel />
+      <UACUIAccess />
+      <GenerateMapFile />
+      <MapExports />
+      <StackReserveSize>67108864</StackReserveSize>
+      <SwapRunFromCD />
+      <SwapRunFromNET />
+      <Driver />
+      <ProfileGuidedDatabase />
+      <IgnoreEmbeddedIDL />
+      <TypeLibraryResourceID />
+      <NoEntryPoint />
+      <SetChecksum />
+      <RandomizedBaseAddress />
+      <DataExecutionPrevention />
+      <TurnOffAssemblyGeneration />
+      <Profile />
+      <CLRImageType />
+      <LinkErrorReporting />
+      <RegisterOutput />
+      <PerUserRedirection />
+      <StackCommitSize>
+      </StackCommitSize>
+      <ManifestFile />
+      <ProgramDatabaseFile />
+      <TargetMachine />
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WANT_LOGO;FILE_DESCRIPTION=\"CLI\";FILE_NAME=\"php.exe\";URL=\"http://www.php.net\";INTERNAL_NAME=\"CLI SAPI\";THANKS_GUYS=\"Thanks to Edin Kadribasic, Marcus Boerger, Johannes Schlueter, Moriyoshi Koizumi, Xinchen Hui\"</PreprocessorDefinitions>
+      <ResourceOutputFileName>php.exe.res</ResourceOutputFileName>
+      <NullTerminateStrings>true</NullTerminateStrings>
+      <AdditionalIncludeDirectories>D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\Zend;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\TSRM;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\main;D:\php-sdk\phpdev\vc15\x64\php-7.2.34-src\ext;D:\php-sdk\phpdev\vc15\x64\deps\include;</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <ProjectReference>
+      <LinkLibraryDependencies />
+    </ProjectReference>
+    <ProjectReference>
+      <UseLibraryDependencyInputs />
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
